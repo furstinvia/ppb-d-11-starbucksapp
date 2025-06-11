@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.StarbucksApp">
+        
+        <!-- Welcome Activity sebagai launcher -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.StarbucksApp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.StarbucksApp.NoActionBar" />
+        
+        <!-- Register Activity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.StarbucksApp.NoActionBar" />
+            
+    </application>
+
+</manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.StarbucksApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#00704A</item>
+        <item name="colorPrimaryVariant">#004d33</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">#00A862</item>
+        <item name="colorSecondaryVariant">#007544</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.StarbucksApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>
