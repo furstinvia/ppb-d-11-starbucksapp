@@ -23,4 +23,3 @@ This is a **demo version** of the Starbucks mobile application, built using **Ko
 
 ### 🎨 Consistent Design System  
 - Built with attention to detail using Starbucks' signature green palette, clean typography, and Material Design components to ensure a consistent and branded look & feel.
-
